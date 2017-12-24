@@ -23,9 +23,10 @@
     }];
 }
 
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
-{
-    [super prepareForSegue:segue sender:sender];
-}
+// 以下のメソッドを実装する場合は Suoer でメソッドを呼ぶ
+//- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+//{
+//    [super prepareForSegue:segue sender:sender];
+//}
 
 @end
